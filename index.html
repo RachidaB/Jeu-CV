@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+<head >
+	<meta charset="utf-8">
+	<title>JeuCV</title>
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="obj.js"></script>
+	<script type="text/javascript" src="framworks/jquery-1.11.3.js"></script>
+	<script src="framworks/jquery-ui.js"></script>
+	<link rel="stylesheet" href="styles.css" type="text/css"/>
+
+</head>
+<body unselectable="on" class="unselectable">
+	<header unselectable="on" >
+		<ul unselectable="on" id="menu">
+			<li unselectable="on"> <a href="images/RachidaFullStack.pdf" >CV pdf</a> </li>
+			<li unselectable="on"> </li>
+		</ul>
+	</header>
+	<div unselectable="on" class="center">
+
+				<div id="accueil">
+					<h1>Bienvenue à Snitch's world </h1> <br>
+					<p>Pour découvrir mon CV, vous devez aider la sorciere snitch </p>
+					<p>a attraper toutes mes compétences pour en faire une potion magique </p>
+					<p>et afficher mon CV. </p>
+					<p>Pour se déplacer, utiliser les fléches du clavier et pour commencer le jeu  </p>
+					<p>Appuier sur "play the game".</p>
+					<img class="monImg" src="images/play.png" alt="" />
+				</div>
+
+				<div id="espaceJeu">
+						<div unselectable="on" id="global">
+								<div unselectable="on" id="backDiv">
+										<img unselectable="on"  class="score" src="images/score.png" alt=""/>
+										<img unselectable="on"  class="goal" src="images/score.png" alt=""/>
+										<h2 unselectable="on" id="textScore">Score :</h2>
+										<h2 unselectable="on" id="textVie">Vie : </h2>
+								</div>
+								<canvas unselectable="on" id="frontCanvas"></canvas>
+						</div>
+						<div unselectable="on" id="pause">
+								<img unselectable="on"  class="arc" src="images/win.png" alt=""/>
+						</div>
+						<div class="Comp">
+							<img id="angular" src="images/angular.png" alt="">
+							<img id="css" src="images/css.png" alt="">
+							<img id="html" src="images/html.png" alt="">
+							<img id="javascript" src="images/javascript.png" alt="">
+							<img id="nodejs"  src="images/nodejs.png" alt="">
+							<img id="mongodb" src="images/mongodb.png" alt="">
+							<img id="meteor" src="images/meteor.png" alt="">
+							<img id="bootsrap" src="images/bootsrap.png" alt="">
+							<img id="express" src="images/express.png" alt="">
+							<img id="jquery" src="images/jquery.png" alt="">
+						</div>
+				</div>
+				<div class="audio">
+						<audio id="music" src="sons/BubbleWitchMusic.mp3" controls autoplay loop ></audio>
+				</div>
+
+	</div>
+	<footer unselectable="on"> </footer>
+</body>
+</html>

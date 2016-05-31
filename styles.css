@@ -1,0 +1,273 @@
+  .unselectable {
+     -moz-user-select: -moz-none;
+     -khtml-user-select: none;
+     -webkit-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+  }
+  body {
+    margin: 0;
+    background-image: url(images/background.jpg) ;
+  }
+  header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    color: #CCC;
+    background-color: #333;
+    padding: 8px;
+  }
+  header ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 5px 5%;
+
+  }
+  header ul li:first-child {
+        margin-left: 60%;
+  }
+  header li a{
+     text-decoration: none ;
+     font: Arial,sans-serif ;
+     top : 55px;
+     color: #CCC;
+  }
+  header ul li:hover{
+      box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+
+    }
+  footer {
+    position: static;;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height :200px;
+    color: black;
+    background-image: url(images/footerR.png);
+  }
+  .center {
+    position: static;
+    background-color: #CCC;
+    border-radius: 10px;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+    margin-top: 100px;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+    height: 640px;
+    background-image: url(images/background.png);
+    background-repeat:no-repeat;
+  }
+  #global {
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    margin-left: 75px;
+    margin-right: 75px;
+    z-index: 1 ;
+  }
+  #frontCanvas,#backDiv{
+    background-color: rgba(131, 123, 123, 0);
+    border-radius: 10px;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+    position: absolute;;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 800px;
+    height: 500px;
+  }
+  #backDiv{
+    position: absolute;
+  }
+
+  #frontCanvas{
+    z-index: 3 ;
+  }
+  .score{
+    position: absolute;
+    width: 120px;
+    height: 44px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .goal{
+    position: absolute;
+    width: 120px;
+    height: 44px;
+    margin-top: 5px;
+    margin-left: 130px;
+  }
+  #textScore {
+    position: absolute;
+    top : -9px;
+    left : 20px;
+    color : #CCC;
+
+  }
+  #textVie {
+    position: absolute;
+    top : -9px;
+    left : 145px;
+    color : #CCC;
+  }
+  #pause {
+     visibility: hidden;
+     background-color: rgba(131, 123, 123, 0.5);
+     width: 800px;
+     height: 500px;
+     list-style: none;
+     text-align: center ;
+     margin-top : 0px;
+     margin-left : 75px;
+     border-radius: 10px;
+  }
+  #pause h3 {
+     list-style: none;
+     text-align: center ;
+     margin-top : 10px;
+     margin-left : 10px;
+
+  }
+  .menuADroite {
+    width: 70px;
+    height: 600px;
+    margin-top : -479px;
+    margin-left : 1009px;
+    border-radius: 5px;
+    background-image: url(images/menuH.png);
+    background-repeat: no-repeat;
+  }
+
+  .menuADroite img{
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 20px;
+
+  }
+.menuADroite img:hover{
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+
+  }
+  #accueil {
+    display:block;
+    background-color: rgba(131, 123, 123, 0.4);
+    border-radius: 10px;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    margin-left: 75px;
+    margin-top: 10px;
+    width: 800px;
+    height: 500px;
+    color: #8E3557;
+  }
+  #accueil h1{
+    margin-left: 180px;
+    margin-top: 20px;
+  }
+  #accueil p{
+    margin-left: 140px;
+    margin-top: 20px;
+  }
+  #accueil img{
+    margin-left: 595px;
+    margin-top: 30px;
+    width: 120px;
+    height: 100px;
+  }
+  #accueil img:hover{
+    -ms-transform: rotate(12deg); /* IE 9 */
+    -webkit-transform: rotate(12deg); /* Chrome, Safari, Opera */
+    transform: rotate(12deg);
+  }
+  #espaceJeu {
+    display: none;
+  }
+  .Comp {
+    background-color: rgba(131, 123, 123, 0.3);
+    border-radius: 10px;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+    position: absolute;;
+    margin-left: 75px;
+    margin-right: 0px;
+    margin-top: 20px;
+    width: 800px;
+    height: 100px;
+  }
+  #angular{
+    visibility: hidden;
+    margin-left: 10px;
+    margin-top: 18px;
+    width: 60px;
+    height: 60px;
+  }
+  #css{
+    visibility: hidden;
+    margin-left: 10px;
+    margin-top: 18px;
+    width: 60px;
+    height: 60px;
+  }
+  #html{
+    visibility: hidden;
+    margin-left: 10px;
+    margin-top: 18px;
+    width: 60px;
+    height: 60px;
+  }
+  #javascript{
+    visibility: hidden;
+    margin-left: 10px;
+    margin-top: 18px;
+    width: 60px;
+    height: 60px;
+  }
+  #nodejs{
+    visibility: hidden;
+    margin-left: 10px;
+    margin-top: 18px;
+    width: 60px;
+    height: 60px;
+  }
+  #mongodb{
+    visibility: hidden;
+    margin-left: 10px;
+    margin-top: 18px;
+    width: 130px;
+    height: 70px;
+  }
+  #bootsrap{
+    visibility: hidden;
+    margin-left: 10px;
+    margin-top: 18px;
+    width: 60px;
+    height: 60px;
+  }
+  #jquery {
+    visibility: hidden;
+    margin-left: 10px;
+    margin-top: 18px;
+    width: 110px;
+    height: 50px;
+  }
+  #express{
+    visibility: hidden;
+    margin-left: 10px;
+    margin-top: 18px;
+    width: 90px;
+    height: 50px;
+  }
+  #meteor{
+    visibility: hidden;
+    margin-left: 10px;
+    margin-top: 18px;
+    width: 70px;
+    height: 70px;
+  }
+.audio{
+  visibility: hidden;
+}
